@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GST CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gst-calculator">
+        <h2>GST Calculator</h2>
+        <label for="product-name">Product Name:</label>
+        <input type="text" id="product-name" placeholder="Enter product name">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" placeholder="Enter quantity">
+        <label for="price">Price:</label>
+        <input type="number" id="price" placeholder="Enter price">
+        <label for="tax-rate">Tax Rate (%):</label>
+        <input type="number" id="tax-rate" placeholder="Enter tax rate">
+        <button onclick="calculate()">Calculate</button>
+        <div id="result"></div>
+      </div>
+         
+  <script src="script.js"></script>
+
+</body>
+</html>
